@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ html .body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    font-weight: 300;
+ }
+
+ ul {
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+ .container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0,auto;
+    max-width: 1200px;
+    align-items: center;
+ }
+ 
+
+ header{
+    background-color: rgb(10, 10, 108);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+ }
+
+ .logo{
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 20px;
+
+ }
+
+ nav ul{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+ }
+
+ nav ul li{
+    border-bottom: 2px solid transparent;
+ }
+
+ nav ul li:hover{
+    border-bottom: 2px solid white;
+ }
+
+ .hero_section{
+    background-image: url(images/Screenshot\ 2024-01-31\ 210159.png);
+    height: 100vh;
+    color: white;
+    display:grid;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+ }
+ .music-section{
+   padding-top: 50px;
+   background-color: rgb(5, 5, 70);
+ }
+
+ .container1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   flex-direction: column;
+   color: white;
+ }
+ .container1 p{
+   text-align: center;
+   align-items: center;
+   margin: 10px;
+ }
+
+ .ipad-iphone{
+   margin-top: -400px;
+   position: relative;
+   top: 400px;
+ }
+ .primary_btn {
+   background-color:red;
+   color: white;
+   padding: 10px;
+  
+ }
+ .secondary-button{
+   background-color: brown;
+   color: white;
+  margin: 15px;
+   text-align: center;
+ }
+
+ .About-music-container{
+   padding-top: 500px;
+   gap: 20px;
+   display:flex;
+   justify-content: center; 
+ }
+
+ .About-music-container p{
+   text-align: center;
+   
+ }
+ .music {
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center;
+   gap: 40px;
+ }
+ .music p{
+   margin: 8px;
+   padding:10px;
+ }
+
+ .video_container{
+   margin: 40px;
+
+ }
+ .gift_card{
+  margin: 10px;
+  display:flex;
+  
+ }
+ .gift{
+ display: flex;
+ justify-content: space-between;
+ }
+
+ .gift_containt h1 p  {
+  gap: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  
+
+ }
+ .footer-upper {
+  background-color:rgb(7, 78, 94);
+  border-color: white;
+  padding:20px;
+}
+.footer-upper .container {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.footer-upper h4 {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+    
+    
